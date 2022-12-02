@@ -16,13 +16,17 @@ import TheNavBar from './components/TheNavBar.vue';
 
 <template>
   <!-- <componente></componente> -->
-  <TheNavBar></TheNavBar>
-  <TheHeader></TheHeader>
-  <TheMain></TheMain>
-  <TheBigFooter></TheBigFooter>
-  <TheSmallFooter></TheSmallFooter>
+
+
+    <TheNavBar></TheNavBar>
+    <TheHeader></TheHeader>
+    <TheMain></TheMain>
+    <TheBigFooter></TheBigFooter>
+    <TheSmallFooter></TheSmallFooter>
+
 </template>
 
-<style scoped>
+<style lang="scss">
+@use "./styles/general.scss";
 
 </style>
