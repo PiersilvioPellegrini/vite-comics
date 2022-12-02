@@ -23,6 +23,7 @@ import TheNavBar from './components/TheNavBar.vue';
     <TheMain></TheMain>
     <TheBigFooter></TheBigFooter>
     <TheSmallFooter></TheSmallFooter>
+    
 
 </template>
 

@@ -8,6 +8,7 @@ export default {
         "../../public/footer-pinterest.png",
         "../../public/footer-twitter.png",
         "../../public/footer-youtube.png",
+        
       ],
     };
   },
