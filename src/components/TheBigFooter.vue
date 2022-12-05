@@ -42,7 +42,7 @@ export default {
   <section class="">
     <div class="container d-flex justify-content-between">
       <div class="left-side d-flex gap-3 py-5">
-        <div class="col-4">
+        <div class="col-5">
           <h3>DC COMICS</h3>
           <ul>
             <li v-for="item in DCComics">{{ item }}</li>
@@ -52,7 +52,7 @@ export default {
             <li v-for="item in Shop">{{ item }}</li>
           </ul>
         </div>
-        <div class="col-4">
+        <div class="col-5">
           <h3>DC</h3>
           <ul>
             <li v-for="item in DC">{{ item }}</li>

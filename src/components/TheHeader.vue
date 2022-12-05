@@ -13,7 +13,7 @@ export default {
 
 <template>
   <section class="bg-black">
-    <div class="container">
+    <div class="container pb-5">
       <div class="subtitle">
         <h2>CURRENT SERIES</h2>
       </div>

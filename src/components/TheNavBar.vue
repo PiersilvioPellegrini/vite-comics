@@ -1,19 +1,12 @@
 <script>
+// importo l'array
+import { menuItems } from "../composable/navBarItems";
 export default {
   data() {
     return {
-      menuItems: [
-        "Characters",
-        "Comimcs",
-        "Movies",
-        "Tv",
-        "Games",
-        "Collectibles",
-        "Videos",
-        "Fans",
-        "News",
-        "Shop",
-      ],
+
+      menuItems: menuItems,
+      
     };
   },
   methods: {},
