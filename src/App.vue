@@ -5,11 +5,13 @@ import TheSmallFooter from './components/TheSmallFooter.vue';
 import TheMain from './components/TheMain.vue';
 import TheHeader from './components/TheHeader.vue';
 import TheNavBar from './components/TheNavBar.vue';
+import TheImage from './components/TheImage.vue';
+
 
 
   export default{
     // components:{Componente},
-    components:{TheBigFooter,TheSmallFooter,TheMain,TheHeader,TheNavBar},
+    components:{TheBigFooter,TheSmallFooter,TheMain,TheHeader,TheNavBar,TheImage},
   }
 
 </script>
@@ -19,6 +21,7 @@ import TheNavBar from './components/TheNavBar.vue';
 
 
     <TheNavBar></TheNavBar>
+    <TheImage></TheImage>
     <TheHeader></TheHeader>
     <TheMain></TheMain>
     <TheBigFooter></TheBigFooter>
